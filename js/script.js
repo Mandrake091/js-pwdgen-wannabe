@@ -1,4 +1,3 @@
-
 const userName = prompt('Nome?');
 console.log(userName);
 
@@ -8,5 +7,10 @@ console.log(userSurname);
 const favoriteColor = prompt('Colore preferito?');
 console.log(favoriteColor);
 
+const dateOfBirth = prompt('Data di nascita?');
+console.log(dateOfBirth);
 
-document.getElementById('password').innerHTML += ' ' + userName + userSurname + favoriteColor + '21';
+
+document.getElementById('password').innerHTML += ' ' + userName + userSurname + favoriteColor + dateOfBirth;
+
+document.getElementById('userName').innerHTML += ' ' + userName + ' ' + userSurname + '!';
