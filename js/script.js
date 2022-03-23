@@ -23,4 +23,3 @@ console.log(dateOfBirth);
 document.getElementById('userName').innerHTML += ' ' + userName + ' ' + userSurname + '!';
 
 document.getElementById('password').innerHTML += ' ' + userName + userSurname + favoriteColor + dateOfBirth;
-
